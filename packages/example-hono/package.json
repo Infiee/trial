@@ -1,0 +1,15 @@
+{
+  "name": "my-hono",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@hono/swagger-ui": "^0.3.0",
+    "@hono/zod-openapi": "^0.14.8",
+    "@scalar/hono-api-reference": "^0.5.97",
+    "hono": "^4.4.12"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
